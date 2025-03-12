@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class Principal extends Controller
 {
     function principal(){
-        echo 'Página Principal';
+        return View('Principal');
     }
+
+    function teste(){
+        echo 'Testado com sucesso!!!';
+    }
+
 }
